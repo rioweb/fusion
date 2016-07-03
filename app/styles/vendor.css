@@ -7,9 +7,8 @@
 
 /* Space out content a bit */
 body {
-  padding-top: 0px;
-  padding-bottom: 0px;
-    
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -22,7 +21,7 @@ body {
 
 /* Custom page header */
 .header {
-  
+  border-bottom: 1px solid #e5e5e5;
 }
 
 /* Make the masthead heading the same height as the navigation */
@@ -33,60 +32,10 @@ body {
   padding-bottom: 19px;
 }
 
-#navbar {
-    background-color: white;
-    margin-top: 0px;
-    z-index: 10;
-    position: fixed;
-    min-width: 100%;
-    max-width: 100%;
-    padding-right: 30vh;
-}
-
-#bb {
-    background-color: white;
-    height: 40px;
-    width: 100vh;
-    z-index: 5;
-    position: relative;
-    
-}
-
-#inicio {
-    background-image: url(images/cmyk2.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 55vh;
-    overflow: hidden;
-    margin-bottom: 50px; 
-    position: relative;
-    
-}
-
-#contacto {
-    margin-top: 50px;
-}
-
-
-
-#logo h1 {
-    text-align: center;
-    margin-top: 25vh;
-    
-}
-
-.parallax-container { 
-    height: 40vh;
-    }
-
-#botenv {
-    margin-top: 15px;
-}
-
 /* Custom page footer */
 .footer {
   padding-top: 19px;
+  color: #777;
   
 }
 
@@ -98,17 +47,6 @@ body {
 .jumbotron {
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
-  
-}
-#fondo {
-   background-image: url(images/cmyk2.jpg);
-   background-size: cover;
-    background-repeat: no-repeat;
-   height: 50vh;
-}
-
-.btn, .btn-large {
-    background-color: darkorange; 
 }
 
 .jumbotron .btn {
@@ -126,9 +64,9 @@ body {
 }
 
 /* Responsive: Portrait tablets and up */
-@media screen and (min-width: 930px) {
+@media screen and (min-width: 768px) {
   .container {
-    max-width: 930px;
+    max-width: 730px;
   }
 
   /* Remove the padding we set earlier */
