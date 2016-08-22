@@ -12,6 +12,56 @@ body {
     
 }
 
+section {
+    padding-top: 70px;
+}
+#nav {
+    background-color: #AFCA04;
+    margin-top: 0px;
+    z-index: 10;
+    position: fixed;
+    min-width: 100%;
+    max-width: 100%;
+    padding-right: 30vh;
+    padding-left: 20vh;
+}
+
+
+.botnav:hover {
+    background-color: orange;
+}
+
+#contenedor2{
+  background: url("/images/1.png") fixed; 
+  height: 60vh; 
+  position: relative;
+  margin: 0 auto;
+  padding: 5%;
+  background-size: contain; 
+  background-repeat: no-repeat; 
+  background-position: top;    
+}
+
+#contenedor1{
+  background: url("/images/1.png") fixed; 
+  height: 40vh; 
+  position: relative;
+  margin: 0 auto;
+  padding: 5%;
+  background-size: contain; 
+  background-repeat: no-repeat;
+  background-position: bottom;    
+}
+
+a {
+    color: black;
+}
+
+#productos {  
+  padding-top: 50px;
+  padding-bottom: 0;    
+}
+
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .marketing,
@@ -33,34 +83,18 @@ body {
   padding-bottom: 19px;
 }
 
-#navbar {
-    background-color: white;
-    margin-top: 0px;
-    z-index: 10;
-    position: fixed;
-    min-width: 100%;
-    max-width: 100%;
-    padding-right: 30vh;
-}
 
-#bb {
-    background-color: white;
-    height: 40px;
-    width: 100vh;
-    z-index: 5;
-    position: relative;
-    
-}
+
 
 #inicio {
-    background-image: url(images/cmyk2.jpg);
+   /* background-image: url(/images/cmyk2.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 55vh;
+    height: 60vh;
     overflow: hidden;
     margin-bottom: 50px; 
-    position: relative;
+    position: relative;*/
     
 }
 
@@ -68,12 +102,17 @@ body {
     margin-top: 50px;
 }
 
+#datos {
+    background-color: orange;
+    background-size: cover;
+    min-width: 33%;
+}
+
 
 
 #logo h1 {
-    text-align: center;
-    margin-top: 25vh;
-    
+    text-align: left;
+    margin-top: 30vh;    
 }
 
 .parallax-container { 
@@ -92,6 +131,10 @@ body {
 
 .container-narrow > hr {
   margin: 30px 0;
+}
+
+div.row {
+    margin-bottom: 0;
 }
 
 /* Main marketing message and sign up button */
@@ -137,6 +180,7 @@ body {
   .footer {
     padding-left: 0;
     padding-right: 0;
+    padding-right: 0;
   }
 
   /* Space out the masthead */
@@ -149,3 +193,7 @@ body {
     border-bottom: 0;
   }
 }
+
+
+
+
