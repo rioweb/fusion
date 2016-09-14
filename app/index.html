@@ -1,10 +1,11 @@
 <!doctype html>
-<html lang="">
+<html lang="es" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:fb="http://ogp.me/ns/fb#">
   <head>
     <meta charset="utf-8">
-    <meta name="description" content="">
+    <meta name="description" content="Imprenta con mas de 20 años en el mercado. Impresiones, tarjetas, folletos, talonarios.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Fusión gráfica</title>
+    <title>Fusión Gráfica Rosario</title>
 
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <!-- Place favicon.ico in the root directory -->
@@ -16,33 +17,60 @@
     <!-- endbower -->
     <!-- endbuild -->
 
-    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="/styles/main.css">
     <!-- endbuild -->
+      
+    <meta property="og:title" content="Victoria Birchner" />
+    <meta property="og:url" content="http://imprentafusion.com.ar/" />
+    <meta property="og:image" content="http://imprentafusion.com.ar/images/1.jpg" />
+    <meta property="og:description" content="Fusión Gráfica Rosario" />  
     
-  </head>
+  </head>    
+    
   <body data-spy="scroll">
+      
+  
+<div id="preloader">
+  <div class="preloader-wrapper active" id="status">
+    <div class="spinner-layer spinner-yellow-only">
+      <div class="circle-clipper left">
+        <div class="circle"></div>
+      </div><div class="gap-patch">
+        <div class="circle"></div>
+      </div><div class="circle-clipper right">
+        <div class="circle"></div>
+      </div>
+    </div>
+  </div>
+</div>
+      
       
   <nav id="nav">
     <div class="nav-wrapper">
-        <a href="#" class="brand-logo" style="color:black"></a>
+        <a href="#" class="brand-logo" id="logobarra" style="color:black"></a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a href="#productos" class="botnav">Productos</a></li>
+        <li><a href="#quehacemos" class="botnav">Como lo hacemos</a></li>  
         <li><a href="#contacto" class="botnav">Contacto</a></li>
       </ul>
     </div>
   </nav>    
         
   <div class="section" id="inicio"> 
-  <div id="contenedor2"><div class="row"><div class="col s12 m12" id="logo"> <h1>fusióngráfica</h1> </div></div>
-      
+  <!-- <div id="contenedor2"> -->
+  <div class="parallax-container">
+      <div class="parallax" id="contenedor2"><img src="images/1.jpg">
+        <div class="row"><div class="col s2 m2 l2 offset-l1 offset-s0 coffset-s0" id="logo"></div></div>
     
+      </div>
+    </div> 
+      
   </div>
-
+ 
       
 <!--  ///////////////  QUE HACEMOS  ///////////////  -->    
       
-       
-    <section id="productos">
+       <section id="productos">
       <div class="container"> 
        
        <div class="row">
@@ -51,7 +79,7 @@
 
           <!--   Promo Section   -->
           <div class="row">
-            <div class="col s12 m3">
+            <div class="col s12 m4" id="uno">
               <div class="center promo">
                 <img src="images/talonarios.jpg">
                 <p class="promo-caption">Talonarios</p>
@@ -59,7 +87,7 @@
               </div>
             </div>
 
-            <div class="col s12 m3">
+            <div class="col s12 m4" id="dos">
               <div class="center promo">
                 <img src="images/tarjetas.jpg">
                 <p class="promo-caption">Tarjetas personales</p>
@@ -67,60 +95,87 @@
               </div>
             </div>
 
-            <div class="col s12 m3">
+            <div class="col s12 m4" id="tres">
               <div class="center promo">
                 <img src="images/volantes.jpg">
-                <p class="promo-caption">Volantes</p>
-                <p class="light center">Volantes para promocionar tu negocio o servicio.</p>
+                <p class="promo-caption">Folletos</p>
+                <p class="light center">Folletos para promocionar tu negocio o servicio.</p>
               </div>
             </div>
-              
-              <div class="col s12 m3">
+            <div class="col s12 m4" id="cuatro">
+              <div class="center promo">
+                <img src="images/adhesivo.jpg">
+                <p class="promo-caption">Adhesivos</p>
+                <p class="light center"></p>
+              </div>
+            </div>
+            <div class="col s12 m4" id="cinco">
               <div class="center promo">
                 <img src="images/sobres.jpg">
                 <p class="promo-caption">Sobres</p>
                 <p class="light center">Sobres personalizados para empresas.</p>
               </div>
             </div>
+            <div class="col s12 m4" id="seis">
+              <div class="center promo">
+                <img src="images/adhesivos.jpg">
+                <p class="promo-caption">Revistas</p>
+                <p class="light center"></p>
+              </div>
+            </div>
+              
+              
           </div>
           
             
 
         </div>
       </section>
-      
-      
-      
-      
     
-      <div id="contenedor1"></div>
       
       
       
       
+   
       
       
       
-
-<!--  ///////////////  ATENCIONES  ///////////////  -->  
+<!--  ///////////////  QUE HACEMOS  ///////////////  -->    
       
-          <div class="row" style="padding-top:40px">
+     <section id="quehacemos">
+      <div class=""> 
+       
+       <div class="row">
+            <h3 class="col s12 light center header">Como lo hacemos</h3>
+          </div>
+          
+         <div class="carousel" id="carou">
+            <a class="carousel-item" href="#one!"><img class="item" src="/images/is.jpg"></a>
+            <a class="carousel-item" href="#two!"><img class="item" src="/images/es.jpg"></a>
+            <a class="carousel-item" href="#three!"><img class="item" src="/images/as.jpg"></a>
+            <a class="carousel-item" href="#four!"><img class="item" src="/images/os.jpg"></a>
+            <a class="carousel-item" href="#five!"><img class="item" src="/images/us.jpg"></a>            
+             
+         </div>
+        </div>
+         <div class="row" style="padding-top:40px">
             <div class="col s12 m4 offset-m2">
                 <p class="promo-caption" align="center">Atención personalizada</p>
-                <p class="light center">Asesoramiento según la necesidad del cliente, sus objetivos y presupuesto. </p>
+                <p class="light left">Asesoramiento según la necesidad del cliente, sus objetivos y presupuesto. </p>
             </div>
 
             <div class="col s12 m4">
                 <p class="promo-caption" align="center">Presupuestos a medida</p>
-                <p class="light center">Presupuestos pensados para evitar gastos innecesarios y optimizar la producción logrando la mejor relación producto-precio que beneficie al cliente.</p>
+                <p class="light left">Presupuestos pensados para evitar gastos innecesarios y optimizar la producción logrando la mejor relación producto-precio que beneficie al cliente.</p>
             </div>      
             </div>
+      </section>
       
 <!--  ///////////////  CONTACTO  ///////////////  -->       
       
       
-    <div class="container">     
-    <section id="contacto"></section>
+    <div class="container"> <br><hr color="orange">    
+    <section id="contacto">  
         <div class="row">
             
              <form action="send.php" method="post" class="form">
@@ -146,7 +201,7 @@
                     
                 <div class="col s12 m4" id="datos">
                     
-                    <p><!--<img src="images/tel.png"> -->Tel./Fax: 0341 48 28797 - 481 7427</p>
+                    <p><!--<img src="images/tel.png"> -->Tel.: 0341 48 28797 - 481 7427</p>
                     <p><!--<img src="images/mail.png"> -->contacto@imprentafusión.com.ar</p>
                     <p><!--<img src="images/local.png"> -->Mitre 2338/40 | S2000FWN ROSARIO | SANTA FE</p>
                     <div class="row">
@@ -157,7 +212,7 @@
                 </div>
             </form>
     </div>
-      
+  </section>    
       
       <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
@@ -174,14 +229,14 @@
     <script src="/bower_components/jquery/dist/jquery.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
-    
+    <script src="/scripts/jquery.waypoints.min.js"></script>
     <!-- build:js scripts/plugins.js -->
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
     <!-- endbuild -->
     
     <!-- build:js scripts/main.js -->
-    <script src="scripts/main.js"></script>
+    <script src="/scripts/main.js"></script>
     <!-- endbuild -->
   </body>
 </html>
