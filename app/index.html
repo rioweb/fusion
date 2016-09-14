@@ -1,62 +1,220 @@
 <!doctype html>
-<html lang="">
+<html lang="es" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:fb="http://ogp.me/ns/fb#">
   <head>
     <meta charset="utf-8">
-    <meta name="description" content="">
+    <meta name="description" content="Imprenta con mas de 20 años en el mercado. Impresiones, tarjetas, folletos, talonarios.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>fusion</title>
+    <title>Fusión Gráfica Rosario</title>
 
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <!-- Place favicon.ico in the root directory -->
 
-    <!-- build:css styles/vendor.css -->
+    <link rel="stylesheet" href="styles/vendor.css">
     <!-- bower:css -->
-    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css" />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">  
     <!-- endbower -->
     <!-- endbuild -->
 
-    <!-- build:css styles/main.css -->
-    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="/styles/main.css">
     <!-- endbuild -->
+      
+    <meta property="og:title" content="Victoria Birchner" />
+    <meta property="og:url" content="http://imprentafusion.com.ar/" />
+    <meta property="og:image" content="http://imprentafusion.com.ar/images/1.jpg" />
+    <meta property="og:description" content="Fusión Gráfica Rosario" />  
     
-  </head>
-  <body>
-    <!--[if lt IE 10]>
-      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
+  </head>    
     
-    <div class="container">
-      <div class="header">
-        <ul class="nav nav-pills pull-right">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-        <h3 class="text-muted">fusion</h3>
-      </div>
-
-      <div class="jumbotron">
-        <h1>'Allo, 'Allo!</h1>
-        <p class="lead">Always a pleasure scaffolding your apps.</p>
-        <p><a class="btn btn-lg btn-success" href="#">Splendid!</a></p>
-      </div>
-
-      <div class="row marketing">
-        <div class="col-lg-6">
-          <h4>HTML5 Boilerplate</h4>
-          <p>HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.</p>
-          
-          <h4>Bootstrap</h4>
-          <p>Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.</p>
-        </div>
-      </div>
-
-      <div class="footer">
-        <p>♥ from the Yeoman team</p>
+  <body data-spy="scroll">
+      
+  
+<div id="preloader">
+  <div class="preloader-wrapper active" id="status">
+    <div class="spinner-layer spinner-yellow-only">
+      <div class="circle-clipper left">
+        <div class="circle"></div>
+      </div><div class="gap-patch">
+        <div class="circle"></div>
+      </div><div class="circle-clipper right">
+        <div class="circle"></div>
       </div>
     </div>
+  </div>
+</div>
+      
+      
+  <nav id="nav">
+    <div class="nav-wrapper">
+        <a href="#" class="brand-logo" id="logobarra" style="color:black"></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="#productos" class="botnav">Productos</a></li>
+        <li><a href="#quehacemos" class="botnav">Como lo hacemos</a></li>  
+        <li><a href="#contacto" class="botnav">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>    
+        
+  <div class="section" id="inicio"> 
+  <!-- <div id="contenedor2"> -->
+  <div class="parallax-container">
+      <div class="parallax" id="contenedor2"><img src="images/1.jpg">
+        <div class="row"><div class="col s2 m2 l2 offset-l1 offset-s0 coffset-s0" id="logo"></div></div>
     
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+      </div>
+    </div> 
+      
+  </div>
+ 
+      
+<!--  ///////////////  QUE HACEMOS  ///////////////  -->    
+      
+       <section id="productos">
+      <div class="container"> 
+       
+       <div class="row">
+            <h3 class="col s12 light center header">Productos</h3>
+          </div>
+
+          <!--   Promo Section   -->
+          <div class="row">
+            <div class="col s12 m4" id="uno">
+              <div class="center promo">
+                <img src="images/talonarios.jpg">
+                <p class="promo-caption">Talonarios</p>
+                <p class="light center">Facturas y talonarios personalizados según tu negocio.</p>
+              </div>
+            </div>
+
+            <div class="col s12 m4" id="dos">
+              <div class="center promo">
+                <img src="images/tarjetas.jpg">
+                <p class="promo-caption">Tarjetas personales</p>
+                <p class="light center">Tarjetas personalizadas para empresas, vendedores, técnicos, comercios, etc.</p>
+              </div>
+            </div>
+
+            <div class="col s12 m4" id="tres">
+              <div class="center promo">
+                <img src="images/volantes.jpg">
+                <p class="promo-caption">Folletos</p>
+                <p class="light center">Folletos para promocionar tu negocio o servicio.</p>
+              </div>
+            </div>
+            <div class="col s12 m4" id="cuatro">
+              <div class="center promo">
+                <img src="images/adhesivo.jpg">
+                <p class="promo-caption">Adhesivos</p>
+                <p class="light center"></p>
+              </div>
+            </div>
+            <div class="col s12 m4" id="cinco">
+              <div class="center promo">
+                <img src="images/sobres.jpg">
+                <p class="promo-caption">Sobres</p>
+                <p class="light center">Sobres personalizados para empresas.</p>
+              </div>
+            </div>
+            <div class="col s12 m4" id="seis">
+              <div class="center promo">
+                <img src="images/adhesivos.jpg">
+                <p class="promo-caption">Revistas</p>
+                <p class="light center"></p>
+              </div>
+            </div>
+              
+              
+          </div>
+          
+            
+
+        </div>
+      </section>
+    
+      
+      
+      
+      
+   
+      
+      
+      
+<!--  ///////////////  QUE HACEMOS  ///////////////  -->    
+      
+     <section id="quehacemos">
+      <div class=""> 
+       
+       <div class="row">
+            <h3 class="col s12 light center header">Como lo hacemos</h3>
+          </div>
+          
+         <div class="carousel" id="carou">
+            <a class="carousel-item" href="#one!"><img class="item" src="/images/is.jpg"></a>
+            <a class="carousel-item" href="#two!"><img class="item" src="/images/es.jpg"></a>
+            <a class="carousel-item" href="#three!"><img class="item" src="/images/as.jpg"></a>
+            <a class="carousel-item" href="#four!"><img class="item" src="/images/os.jpg"></a>
+            <a class="carousel-item" href="#five!"><img class="item" src="/images/us.jpg"></a>            
+             
+         </div>
+        </div>
+         <div class="row" style="padding-top:40px">
+            <div class="col s12 m4 offset-m2">
+                <p class="promo-caption" align="center">Atención personalizada</p>
+                <p class="light left">Asesoramiento según la necesidad del cliente, sus objetivos y presupuesto. </p>
+            </div>
+
+            <div class="col s12 m4">
+                <p class="promo-caption" align="center">Presupuestos a medida</p>
+                <p class="light left">Presupuestos pensados para evitar gastos innecesarios y optimizar la producción logrando la mejor relación producto-precio que beneficie al cliente.</p>
+            </div>      
+            </div>
+      </section>
+      
+<!--  ///////////////  CONTACTO  ///////////////  -->       
+      
+      
+    <div class="container"> <br><hr color="orange">    
+    <section id="contacto">  
+        <div class="row">
+            
+             <form action="send.php" method="post" class="form">
+                <div class="row">
+                <h3 class="col s12 light center header">Contacto</h3>
+                <div class="col s12 m8 offset-m0">
+                        <div class="form-group"><label for="nombre"  style="color:black">Nombre:</label>
+                        <input name="nombre" class="form-control" id="nombre" type="text" placeholder="Nombre:"></div>
+
+                        <div class="form-group"><label for="e-mail"  style="color:black">E-mail:</label>
+                        <input name="email" class="form-control" id="e-mail" type="text" placeholder="E-mail:"></div>
+
+                        <div class="form-group"><label for="telefono"  style="color:black">Teléfono:</label>
+                        <input name="telefono" class="form-control" id="telefono" type="text" placeholder="Telefono:"></div>
+                      
+                
+                <div class="form-group" style="align:right"><label for="comentario"  style="color:black">Comentario:</label>
+                <textarea name="comentario" class="form-control" rows="3" id="comentario" placeholder="Comentario:"></textarea></div>
+                        <button type="submit" class="waves-effect waves-light btn" id="botenv">Enviar</button>
+                    
+
+                </div>
+                    
+                <div class="col s12 m4" id="datos">
+                    
+                    <p><!--<img src="images/tel.png"> -->Tel.: 0341 48 28797 - 481 7427</p>
+                    <p><!--<img src="images/mail.png"> -->contacto@imprentafusión.com.ar</p>
+                    <p><!--<img src="images/local.png"> -->Mitre 2338/40 | S2000FWN ROSARIO | SANTA FE</p>
+                    <div class="row">
+                    <div class="col s12 m12" id="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1990.42941213844!2d-60.64505654349528!3d-32.96447411568703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab09c476cabd%3A0xbfdf94e011e793f1!2zRnVzacOzbmdyw6FmaWNh!5e0!3m2!1ses-419!2sar!4v1470942870781" width="285" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>    
+
+                </div>
+            </form>
+    </div>
+  </section>    
+      
+      <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
       (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
       function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
@@ -71,24 +229,14 @@
     <script src="/bower_components/jquery/dist/jquery.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
-    
+    <script src="/scripts/jquery.waypoints.min.js"></script>
     <!-- build:js scripts/plugins.js -->
-    <script src="/bower_components/bootstrap/js/affix.js"></script>
-    <script src="/bower_components/bootstrap/js/alert.js"></script>
-    <script src="/bower_components/bootstrap/js/dropdown.js"></script>
-    <script src="/bower_components/bootstrap/js/tooltip.js"></script>
-    <script src="/bower_components/bootstrap/js/modal.js"></script>
-    <script src="/bower_components/bootstrap/js/transition.js"></script>
-    <script src="/bower_components/bootstrap/js/button.js"></script>
-    <script src="/bower_components/bootstrap/js/popover.js"></script>
-    <script src="/bower_components/bootstrap/js/carousel.js"></script>
-    <script src="/bower_components/bootstrap/js/scrollspy.js"></script>
-    <script src="/bower_components/bootstrap/js/collapse.js"></script>
-    <script src="/bower_components/bootstrap/js/tab.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
     <!-- endbuild -->
     
     <!-- build:js scripts/main.js -->
-    <script src="scripts/main.js"></script>
+    <script src="/scripts/main.js"></script>
     <!-- endbuild -->
   </body>
 </html>
